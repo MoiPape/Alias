@@ -9,6 +9,8 @@
 | npmd           | nmp start dev                                                              | 
 | rm             | trash                                                                      | 
 | mkcd           | mkdircd (){ mkdir $1; cd $1 ; }; mkdircd                                   | 
-| mostused       | history , awk '\''{print $2}'\'' , sort , uniq -c , sort -nr , head -n 10  | * 
+| * mostused     | history , awk '\''{print $2}'\'' , sort , uniq -c , sort -nr , head -n 10  |  
 
-* When I´m writting "mostused aliases" is not , is | *
+```bash
+* When I´m writting "mostused aliases" is not , is | 
+```
